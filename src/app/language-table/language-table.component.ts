@@ -12,15 +12,15 @@ export interface PeriodicElement {
 const ELEMENT_DATA: PeriodicElement[] = [
   {malayalam: '\u{D05}', vatteluttu: '1', tamil_brahmi: '\u{11405}', brahmi: '\u{11005}', aramaic: '\u{10840}'},
   {malayalam: '\u{D06}', vatteluttu: '2', tamil_brahmi: '\u{11405}', brahmi: '\u{11006}', aramaic: '\u{10841}'},
-  {malayalam: '\u{D07}', vatteluttu: '3', tamil_brahmi: '\u{11405}', brahmi: '\u{11007}', aramaic: 'aa'},
-  {malayalam: '\u{D08}', vatteluttu: '4', tamil_brahmi: '\u{11405}', brahmi: '\u{11008}', aramaic: 'aa'},
-  {malayalam: '\u{D09}', vatteluttu: '5', tamil_brahmi: '\u{11405}', brahmi: '\u{11009}', aramaic: 'aa'},
-  {malayalam: '\u{D0A}', vatteluttu: '6', tamil_brahmi: '\u{11405}', brahmi: '\u{1100A}', aramaic: 'aa'},
-  {malayalam: '\u{D0B}', vatteluttu: '7', tamil_brahmi: '\u{11405}', brahmi: '\u{1100B}', aramaic: 'aa'},
-  {malayalam: '\u{D0E}', vatteluttu: '8', tamil_brahmi: '\u{11405}', brahmi: '\u{1100F}', aramaic: 'aa'},
-  {malayalam: '\u{D0F}', vatteluttu: '9', tamil_brahmi: '\u{11405}', brahmi: '', aramaic: 'aa'},
+  {malayalam: '\u{D07}', vatteluttu: '3', tamil_brahmi: '\u{11405}', brahmi: '\u{11007}', aramaic: '\u{10842}'},
+  {malayalam: '\u{D08}', vatteluttu: '4', tamil_brahmi: '\u{11405}', brahmi: '\u{11008}', aramaic: '\u{10843}'},
+  {malayalam: '\u{D09}', vatteluttu: '5', tamil_brahmi: '\u{11405}', brahmi: '\u{11009}', aramaic: '\u{10844}'},
+  {malayalam: '\u{D0A}', vatteluttu: '6', tamil_brahmi: '\u{11405}', brahmi: '\u{1100A}', aramaic: '\u{10845}'},
+  {malayalam: '\u{D0B}', vatteluttu: '7', tamil_brahmi: '\u{11405}', brahmi: '\u{1100B}', aramaic: '\u{10846}'},
+  {malayalam: '\u{D0E}', vatteluttu: '8', tamil_brahmi: '\u{11405}', brahmi: '\u{1100F}', aramaic: '\u{10847}'},
+  {malayalam: '\u{D0F}', vatteluttu: '9', tamil_brahmi: '\u{11405}', brahmi: '', aramaic: '\u{10848}'},
   {malayalam: '\u{0D10}', vatteluttu: '10', tamil_brahmi: '\u{11405}', brahmi: '\u{11010}', aramaic: 'Ai'},
-  {malayalam: '\u{0D12}', vatteluttu: '11', tamil_brahmi: '\u{11405}', brahmi: '\u{11011}', aramaic: 'O'},
+  {malayalam: '\u{0D12}', vatteluttu: '11', tamil_brahmi: '\u{11405}', brahmi: '\u{11011}', aramaic: '\u{1084A}'},
   {malayalam: '\u{0D13}', vatteluttu: '12', tamil_brahmi: '\u{11405}', brahmi: '', aramaic: 'aa'},
   {malayalam: '\u{0D14}', vatteluttu: '13', tamil_brahmi: '\u{11405}', brahmi: '\u{11012}', aramaic: 'Au'},
   {malayalam: '\u{D05}\u{0D02}', vatteluttu: '15', tamil_brahmi: '\u{11405}', brahmi: '', aramaic: 'aa'},
@@ -80,6 +80,6 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./language-table.component.css']
 })
 export class LanguageTableComponent {
-  displayedColumns: string[] = ['malayalam', 'vatteluttu', 'tamil_brahmi', 'brahmi', 'aramaic'];
+  displayedColumns: string[] = ['malayalam', 'vatteluttu', 'brahmi', 'aramaic'];
   dataSource = ELEMENT_DATA;
 }
